@@ -1,0 +1,12 @@
+# Ignore artifacts:
+build
+coverage
+node_modules
+README.md
+babel.config.js
+vite.config.ts
+
+.*
+*.json
+*.jpg
+*.png

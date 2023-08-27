@@ -1,0 +1,19 @@
+module.exports = {
+  apps: [
+    {
+      name: 'app_name',
+      script: 'serve',
+      exec_mode: 'cluster',
+      instances: 4,
+      env: {
+        PM2_SERVE_PATH: './dist',
+        PM2_SERVE_PORT: 8081,
+        PM2_SERVE_BASIC_AUTH: 'true',
+        PM2_SERVE_SPA: 'true',
+        PM2_SERVE_HOMEPAGE: './dist/index.html',
+        PM2_SERVE_BASIC_AUTH_USERNAME: 'example-login',
+        PM2_SERVE_BASIC_AUTH_PASSWORD: 'example-password',
+      },
+    },
+  ],
+};

@@ -1,0 +1,12 @@
+# Ignore artifacts:
+build
+dist
+coverage
+node_modules
+README.md
+babel.config.js
+webpack.config.js
+vite.config.ts
+
+.*
+*.json
