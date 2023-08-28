@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import SEOHeader from '../../components/SEOHeader';
-import { homePage } from '../../constants/SEO';
+import SEOHeader from '@/components/SEOHeader';
+import { homePage } from '@/constants/SEO';
 
 export default function Home() {
   const { t } = useTranslation();

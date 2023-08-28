@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async';
-import { SEO } from '../types';
+import { SEO } from '@/types';
 
 export default function SEOHeader(metaData: SEO) {
   return (

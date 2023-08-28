@@ -20,6 +20,7 @@ module.exports = {
         'endOfLine': 'auto'
       }
     ],
-    'import/newline-after-import': ['error']
-  },
+    'import/newline-after-import': ['error'],
+    'import/no-unresolved': [2, { ignore: ['\\@/*'] }]
+  }
 }
